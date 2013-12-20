@@ -9,7 +9,7 @@ var express = require('express')
 
 var app = express();
 var port = (process.env.VMC_APP_PORT || 3002);
-var host = (process.env.VCAP_APP_HOST || 'localhost');
+var host = (process.env.VCAP_APP_HOST || 'localhost' || '66.111.33.250');
 
 
 // all environments

@@ -21,7 +21,8 @@ function social(callback) {
 }
 
 function professional(callback) {
-	return callback(undefined,resumeData.professional);
+	var professional = {"OSS":resumeData.professional, "Closed Source": resumeData.employment.GISi.projects}
+	return callback(undefined,professional);
 }
 
 function education(callback) {

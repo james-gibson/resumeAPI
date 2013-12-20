@@ -1,0 +1,48 @@
+{
+	"summary": {
+		"profiles":[
+			"http://careers.stackoverflow.com/jamesgibson",
+			"http://www.linkedin.com/pub/james-gibson/16/8bb/5b3"
+		]
+	},
+	"social":{
+		"twitter":"https://twitter.com/brainchildpro"
+	} ,
+	"employment": {
+		"GISi":{
+			"employed":{"from":"July 2012", "to":"Present"},
+			"titles": {
+				"current":"Geospatial Developer",
+				"previous":["Web Applications Developer"]
+			},
+			"projects": [
+				{
+					"title":"GeoMetri"
+					"url":"http://gisiindoors.com/products-services",
+					"responsibilities":"Managed migration from api/v0 to api/v1 and implemented new v1 features",
+					"stack":["Node.js","Angular.js","socket.io","Leaflet","AWS/Dynamo"]
+
+				},
+				{
+					"title":"Naval Shore Geospatial Energy Module",
+					"url":"http://gisinc.com/brag-book/projects/us-navy-cnic-n4-facilities-environment-implements-energy-saving-gis-solution/",
+					"responsibilities":"Led system architecture and design of client application ",
+					"stack":["Flex","AS3",".Net 3.5","Oracle"]
+				}
+			]
+		}
+	},
+	"professional": {
+		"github":"https://github.com/james-gibson",
+		"bitbucket":"https://bitbucket.org/james_gibson"
+	},
+	"education": {
+		"university":{"name":"Salisbury University","url":"www.salisbury.edu"},
+		"degree":{"type":"BS","name":"Information Systems",
+			"school":"Perdue Business School"},
+		"minor": {"name":"Geographical Information Science",
+			"school":"Henson Science School"}
+
+	}
+
+}

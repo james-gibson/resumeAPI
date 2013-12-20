@@ -1,13 +1,39 @@
 {
 	"summary": {
+		"name":{
+			"first": "James",
+			"middle": "W",
+			"last": "Gibson",
+			"suffix": "Jr"
+		},
+		"email":     "james.the.nodester@gmail.com",
+		"phone": {"cell":"(443)907-3453"},
 		"profiles":[
 			"http://careers.stackoverflow.com/jamesgibson",
 			"http://www.linkedin.com/pub/james-gibson/16/8bb/5b3"
+		],
+		"history":[
+			"Grew up on the eastern shore of MD",
+			"Graduated from college in 3.5 years with a 3.3 GPA",
+			"Lived outside Washington, DC for a year",
+			"Decided the DC metro area was not for me, moved to CO Aug 2013",
+			"Working remotely 100% of the time since moving to CO"
 		]
 	},
 	"social":{
 		"twitter":"https://twitter.com/brainchildpro"
-	} ,
+	},
+	"professional": {
+		"github":"https://github.com/james-gibson",
+		"bitbucket":"https://bitbucket.org/james_gibson"
+	},
+	"education": {
+		"university":{"name":"Salisbury University","url":"www.salisbury.edu"},
+		"degree":{"type":"BS","name":"Information Systems",
+			"school":"Perdue Business School"},
+		"minor": {"name":"Geographical Information Science",
+			"school":"Henson Science School"}
+	},
 	"employment": {
 		"GISi":{
 			"employed":{"from":"July 2012", "to":"Present"},
@@ -17,7 +43,7 @@
 			},
 			"projects": [
 				{
-					"title":"GeoMetri"
+					"title":"GeoMetri",
 					"url":"http://gisiindoors.com/products-services",
 					"responsibilities":"Managed migration from api/v0 to api/v1 and implemented new v1 features",
 					"stack":["Node.js","Angular.js","socket.io","Leaflet","AWS/Dynamo"]
@@ -31,18 +57,6 @@
 				}
 			]
 		}
-	},
-	"professional": {
-		"github":"https://github.com/james-gibson",
-		"bitbucket":"https://bitbucket.org/james_gibson"
-	},
-	"education": {
-		"university":{"name":"Salisbury University","url":"www.salisbury.edu"},
-		"degree":{"type":"BS","name":"Information Systems",
-			"school":"Perdue Business School"},
-		"minor": {"name":"Geographical Information Science",
-			"school":"Henson Science School"}
-
 	}
 
 }

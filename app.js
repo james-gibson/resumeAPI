@@ -8,7 +8,7 @@ var express = require('express')
     , path = require('path');
 
 var app = express();
-var port = (process.env.VMC_APP_PORT || 3001);
+var port = (process.env.VMC_APP_PORT || 3002);
 var host = (process.env.VCAP_APP_HOST || 'localhost');
 
 

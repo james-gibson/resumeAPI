@@ -25,7 +25,7 @@ function verifyAPIToken(req,res,next) {
 	var token = req.query.token;
 
 
-	if(token != authModel.getToken("KurtEricson","ClinicalKnowledge")) {
+	if(!authModel.validateToken(token)) {
 		res.statusCode = 401;
 		return res.json({message:"Invalid User and Key", code:401});
 	}

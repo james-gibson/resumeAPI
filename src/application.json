@@ -1,71 +1,64 @@
 {
-	"name":{
-		"first": "James",
-		"middle": "W",
-		"last": "Gibson",
-		"suffix": "Jr"
-	},
-	"email":     "james.the.nodester@gmail.com",
-	"phone": {"cell":"(443)907-3453"},
-	"position":  "JavaScript Engineer",
-	"about":     {
-		"history":[
-			"Grew up on the eastern shore of MD",
-			"Graduated from college in 3.5 years with a 3.3 GPA",
-			"Lived outside Washington, DC for a year",
-			"Decided the DC metro area was not for me, moved to CO Aug 2013",
-			"Working remotely 100% of the time since moving to CO"
-		],
-		"work-ethic":"Touch code right, once",
-		"motto":"Simple solutions to complex problems"},
-	"why":[
-		"My current position hinders my inner polyglot",
-		"I enjoy working with cutting edge tech",
-		"I am searching for a challenge",
-		"I want to work with excellent people",
-		"I have personal goals that cannot be met by my current company"
-	],
-	"samples":   [
-		{
-			"api":
-			{
-				"url":"",
-				"type":"GET",
-				"query-parameters":{
-					"user":"KurtEricson",
-					"key":"ClinicalKnowledge"
-					}
-			}
-		},
-		{
-			"github-username":"james-gibson"
-		},
-		{
-			"bitbucket-username":"james_gibson"
-		},
-		{
-			"professional-projects": [
-				{
-					"url":"http://gisiindoors.com/products-services",
-					"responsibilities":"Managed migration from api/v0 to api/v1 and implemented new v1 features",
-					"stack":["Node.js","Angular.js","socket.io","Leaflet","AWS/Dynamo"]
+    "name":{
+        "first": "James",
+        "middle": "W",
+        "last": "Gibson",
+        "suffix": "Jr"
+    },
+    "email":     "james.the.nodester@gmail.com",
+    "phone": {"cell":"(443)907-3453"},
+    "position":  "Sr Geospatial Developer",
+    "about":     {
+        "history":[
+            "Grew up on the eastern shore of MD",
+            "Graduated from college in 3.5 years with a 3.3 GPA",
+            "Lived outside Washington, DC for a year",
+            "Decided the DC metro area was not for me, moved to CO Aug 2013",
+            "Working remotely 100% of the time since moving to CO"
+        ],
+        "work-ethic":"Touch code right, once",
+        "motto":"Simple solutions to complex problems"
+    },
+    "why":[
+        "My current tech stack hinders my inner polyglot",
+        "I enjoy working with cutting edge tech",
+        "I am searching for a challenge",
+        "I want to work with excellent people",
+        "I have personal goals that can be met by this project"
+    ],
+    "samples":   [
+        {
+            "api":
+            {
+                "url":"http://66.111.33.250:3002/api/authenticate",
+                "type":"GET",
+                "query-parameters":{
+                    "user":"GISI",
+                    "key":"Indoors"
+                }
+            }
+        },
+        {
+            "github-username":"james-gibson"
+        },
+        {
+            "bitbucket-username":"james_gibson"
+        },
+        {
+            "professional-projects": [
+                {
+                    "url":"http://gisiindoors.com/products-services",
+                    "responsibilities":"Managed migration from api/v0 to api/v1 and implemented new v1 features",
+                    "stack":["Node.js","Angular.js","socket.io","Leaflet","AWS/Dynamo"]
 
-				},
-				{
-					"url":"http://gisinc.com/brag-book/projects/us-navy-cnic-n4-facilities-environment-implements-energy-saving-gis-solution/",
-					"responsibilities":"",
-					"stack":["Flex","AS3",".Net 3.5","Oracle"]
-				}
-			]
-		}
+                },
+                {
+                    "url":"http://gisinc.com/brag-book/projects/us-navy-cnic-n4-facilities-environment-implements-energy-saving-gis-solution/",
+                    "responsibilities":"",
+                    "stack":["Flex","AS3",".Net 3.5","Oracle"]
+                }
+            ]
+        }
 
-	],
-	"referrer":   {
-		"person":{
-			"name":{
-				"first":"Erik",
-				"last":"Buttram"
-			}
-		}
-	}
+    ]
 }

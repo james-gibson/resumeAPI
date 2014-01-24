@@ -27,6 +27,25 @@
 		"github":"https://github.com/james-gibson",
 		"bitbucket":"https://bitbucket.org/james_gibson"
 	},
+    "personal": {
+        "resumeAPI":"https://github.com/james-gibson/resumeAPI",
+        "gooAPI":"https://bitbucket.org/james_gibson/goo-api",
+        "unreleased": [
+            {
+                "name":"Cards-API",
+                "purpose":"Personal implementation of http://www.google.com/landing/now/"
+            },
+            {
+                "name":"liveCards",
+                "purpose":"Share data between all my personal devices in real time.  Will initially be used to send music visualizations to other displays"
+            },
+            {
+                "name":"undefined",
+                "purpose":"Manging trending data in my personal life: energy usage, internet speeds, bandwidth utilization, ect",
+                "stage":"planning"
+            }
+        ]
+    },
 	"education": {
 		"university":{"name":"Salisbury University","url":"www.salisbury.edu"},
 		"degree":{"type":"BS","name":"Information Systems",

@@ -8,13 +8,15 @@ function getToken(user,key) {
 		return "AgileMD";
 	}  else if (user == "GISI" && key =="Indoors") {
         return "ServiceExcellence";
+    } else if (user == "Kevin" && key =="Owocki") {
+        return "SimpleEnergy";
     } else {
 		return undefined;
 	}
 }
 
 function validTokens() {
-    return ["AgileMD","ServiceExcellence"]
+    return ["AgileMD","ServiceExcellence","SimpleEnergy"]
 }
 
 function validateToken(token) {

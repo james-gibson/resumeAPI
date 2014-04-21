@@ -30,6 +30,7 @@
     "personal": {
         "resumeAPI":"https://github.com/james-gibson/resumeAPI",
         "gooAPI":"https://bitbucket.org/james_gibson/goo-api",
+        "nodeGeocoder":"https://github.com/nchaulet/node-geocoder",
         "unreleased": [
             {
                 "name":"Cards-API",
@@ -65,14 +66,16 @@
 					"title":"GeoMetri",
 					"url":"http://gisiindoors.com/products-services",
 					"responsibilities":"Managed migration from api/v0 to api/v1 and implemented new v1 features",
-					"stack":["Node.js","Angular.js","socket.io","Leaflet","AWS/Dynamo"]
+					"stack":["Node.js","Angular.js","socket.io","Leaflet","AWS/Dynamo"],
+                    "awards":[{"name":"Innovation Application Award", "url":"http://gisiindoors.com/news/gisi-wins-innovation-application-award-2014-esri-partner-conference"}]
 
 				},
 				{
 					"title":"Naval Shore Geospatial Energy Module",
 					"url":"http://gisinc.com/brag-book/projects/us-navy-cnic-n4-facilities-environment-implements-energy-saving-gis-solution/",
 					"responsibilities":"Led system architecture and design of client application ",
-					"stack":["Flex","AS3",".Net 3.5","Oracle"]
+					"stack":["Flex","AS3",".Net 4.5","Oracle"],
+                    "press":[{"name":"ArcNews", "url":"http://media.esri.com/publications/arcnews/summer13/arcnews-summer13.pdf", "page":1}]
 				}
 			]
 		}

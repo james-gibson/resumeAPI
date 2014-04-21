@@ -10,13 +10,15 @@ function getToken(user,key) {
         return "ServiceExcellence";
     } else if (user == "Kevin" && key =="Owocki") {
         return "SimpleEnergy";
+    } else if (user == "Craftsman" && key =="Software") {
+        return "kohactive";
     } else {
 		return undefined;
 	}
 }
 
 function validTokens() {
-    return ["AgileMD","ServiceExcellence","SimpleEnergy"]
+    return ["AgileMD","ServiceExcellence","SimpleEnergy", "kohactive"]
 }
 
 function validateToken(token) {

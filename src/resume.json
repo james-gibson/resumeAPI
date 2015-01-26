@@ -42,7 +42,7 @@
             },
             {
                 "name":"undefined",
-                "purpose":"Manging trending data in my personal life: energy usage, internet speeds, bandwidth utilization, ect",
+                "purpose":"Managing trending data in my personal life: energy usage, internet speeds, bandwidth utilization, etc",
                 "stage":"planning"
             }
         ]
@@ -73,7 +73,7 @@
 				{
 					"title":"Naval Shore Geospatial Energy Module",
 					"url":"http://gisinc.com/brag-book/projects/us-navy-cnic-n4-facilities-environment-implements-energy-saving-gis-solution/",
-					"responsibilities":"Led system architecture and design of client application ",
+					"responsibilities":"Led system architecture and design of client application",
 					"stack":["Flex","AS3",".Net 4.5","Oracle"],
                     "press":[{"name":"ArcNews", "url":"http://media.esri.com/publications/arcnews/summer13/arcnews-summer13.pdf", "page":1}]
 				}
